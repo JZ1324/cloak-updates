@@ -1,8 +1,20 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Cloak</title>
+        <item>
+            <title>0.2.1</title>
+            <pubDate>Wed, 04 Nov 2026 20:36:24 +1100</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Cloak 0.2.1</h2><p>Cloak in the Dock, in a smaller window</p><p>Cloak now appears in the Dock as well as the menu bar. Click the Dock icon to reopen the vault window or restore it when minimized.</p><p>The vault is now a smaller, fixed 560 × 420 window. The full sidebar, search, icon/list views, file switches, and secure notes remain available. Settings is smaller too, with scrolling options. The windows cannot be resized.</p><p>Closing the vault window still locks it and keeps Cloak available in the Dock and menu bar. Quit Cloak exits the app; encrypted files remain encrypted.</p>
+]]></description>
+            <enclosure url="https://github.com/JZ1324/cloak-updates/releases/download/v0.2.1/Cloak-0.2.1.dmg" length="3517626" type="application/octet-stream" sparkle:edSignature="VWcW3lJGdFZIFYbxsKoOAVChnLPHXqKby2jLLgnSvaj1360tkHIe99QG+z4vhzQ1t3p7WxsBXzQ7w8aZ1YN/CA=="/>
+        </item>
         <item>
             <title>0.2.0</title>
             <pubDate>Wed, 04 Nov 2026 20:05:30 +1100</pubDate>
@@ -11,10 +23,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Cloak 0.2.0</h2><p>Automatic app updates</p><p>Cloak now checks for new versions with Sparkle and verifies signed update downloads before installing them. Automatic checks and downloads are enabled by default; change them in Settings at any time.</p><p>Use Check for Updates… in the app menu, menu bar options, or Settings to check immediately. Updates wait for active vault transfers to finish and lock the vault before restarting the app.</p><p>Install this disk image once to upgrade an older build without Sparkle. Future releases can then arrive through the updater. This remains a development build without Apple notarization.</p>
 ]]></description>
-            <enclosure url="https://github.com/JZ1324/cloak-updates/releases/download/v0.2.0/Cloak-0.2.0.dmg" length="4574117" type="application/octet-stream" sparkle:edSignature="NvxM5y6OzRL9/ymeoKisbMtfaE0qB3eAfNcVOSIxdjMnZQ3gS6PCM46c+qODBb9wk0m3lnv9mlzQtWTbsJLJCg=="></enclosure>
+            <enclosure url="https://github.com/JZ1324/cloak-updates/releases/download/v0.2.0/Cloak-0.2.0.dmg" length="4574117" type="application/octet-stream" sparkle:edSignature="NvxM5y6OzRL9/ymeoKisbMtfaE0qB3eAfNcVOSIxdjMnZQ3gS6PCM46c+qODBb9wk0m3lnv9mlzQtWTbsJLJCg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: JWI/hbq8+lafJvQMmYyi6r3mCN27TGfF3tYneOCrq4SzPVCebl2nof0PqdB7meSYuaxEZ7Y5H4pkJcOh/URUCw==
-length: 1733
+</rss>
+<!-- sparkle-signatures:
+edSignature: cHvjZeNC7I6YPdGC32HSmSBZDdhQwqdsdf5rF+6+hjLmkOKNln1i58e4hEVY2tLf+2Ir1urdgsH9JYn0PKaxDg==
+length: 2972
 -->
